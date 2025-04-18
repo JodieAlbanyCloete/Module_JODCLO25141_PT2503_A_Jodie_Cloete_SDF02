@@ -2,7 +2,8 @@
     justify-content:baseline;
     font-weight: bold;
     padding: 50px;
-    gap: 200px
+    gap: 200px;
+    column-width: 25%
    ;
 }
 
@@ -12,5 +13,10 @@ padding: 50px;
 gap:100px;
 flex-wrap: wrap;
 flex-direction: row;}
+
+.spacer {
+    width:30px;
+    
+}
 
 
