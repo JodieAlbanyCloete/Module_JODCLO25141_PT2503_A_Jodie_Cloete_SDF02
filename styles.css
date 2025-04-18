@@ -1,22 +1,20 @@
+.flexbox {
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items: center;}
+
 .mainrow {display:flex;
-    justify-content:baseline;
-    font-weight: bold;
-    padding: 50px;
-    gap: 200px;
-    column-width: 25%
-   ;
+flex-direction: row;
+gap: 150px;
+justify-content: stretch;
+margin: 20px;
 }
 
-.row{display: flex;
-justify-content:flex-start;
-padding: 50px;
-gap:100px;
-flex-wrap: wrap;
-flex-direction: row;}
-
-.spacer {
-    width:30px;
-    
+.row {display:flex;
+flex-direction:row;
+gap:50px; 
 }
 
-
+.spacer {width:50px;
+}
