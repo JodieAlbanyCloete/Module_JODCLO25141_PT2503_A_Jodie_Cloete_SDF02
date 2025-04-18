@@ -1,19 +1,15 @@
 .flex-grid {
     display:flex;
-        flex-direction:column; 
+        flex-direction:row; 
 }
 
-.row {display:flex;
-flex-direction: row;
+.comlumn {display:flex;
+flex-direction:row;
 gap: 200px;
 justify-content:flex-start;
 align-items: baseline;
-align-content:first baseline ;}
+align-content:first baseline;
+flex: 1 ;}
 
 
 
-.cell {
-    flex: 1;
-    padding: 50px;
-    text-align: center;
-}
